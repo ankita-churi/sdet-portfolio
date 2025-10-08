@@ -3,7 +3,7 @@
 # SDET Portfolio – ANKITA CHURI
 
 Welcome to my Software Development Engineer in Test (SDET) portfolio!  
-I have 8 years of experience in automation testing, building scalable test frameworks, and delivering high-quality software solutions.
+I have 8+ years of experience in automation testing, building scalable test frameworks, and delivering high-quality software solutions.
 
 ---
 ## 🛠️ Tech Stack
