@@ -25,7 +25,7 @@ I have 8+ years of experience in automation testing, building scalable test fram
 | Project                         | Tech Stack                     | Status           | Description                                                            | Repository Link |
 |--------------------------------|--------------------------------|-----------------|------------------------------------------------------------------------|-----------------|
 | **API Test Automation – RestAssured** | Java · TestNG · RestAssured     | Done   | Building a scalable API automation framework with CI/CD integration and detailed reports. | [🔗 View Repo](https://github.com/ankita-churi/restassured-api-automation-sample) |
-| **API Test Automation – Pytest**      | Python · Pytest               | ⏳ Coming Soon   | Plan to create a lightweight API testing framework with Pytest and reporting. | 🔒 Coming Soon |
+| **UI Test Automation – Selenium**      | Java · TestNG · Selenium Webdriver    | ⏳ Coming Soon   | Plan to create a Web test automation framework with TestNG and Selenium. | 🔒 Coming Soon |
 | **UI Test Automation – Robot**       | Python · Robot Framework      | ⏳ Coming Soon   | Designing a keyword-driven UI automation framework for web applications. | 🔒 Coming Soon |
 | **API Test Automation – Robot**       | Python · Robot Framework      | Done   | Building a scalable Keyword driven API automation framework with CI/CD integration and detailed reports. | [🔗 View Repo](https://github.com/ankita-churi/api-automation-robotframework)
 
