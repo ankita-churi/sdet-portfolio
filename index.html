@@ -1,81 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Ankita | QA Engineer Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ankita | Senior QA Engineer Portfolio</title>
+
+  <!-- Open Graph / LinkedIn -->
+  <meta property="og:title" content="Ankita | Senior QA Engineer Portfolio" />
+  <meta property="og:description" content="SDET | Selenium, Java, Playwright, Python, Rest Assured, API Testing | UK-Based Senior QA Engineer" />
+  <meta property="og:url" content="https://ankita-churi.github.io/sdet-portfolio/" />
+  <meta name="twitter:card" content="summary_large_image" />
+
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 40px;
-      background: #f9f9f9;
+      margin: 0;
+      background: #f7f7f7;
       color: #333;
+      line-height: 1.6;
     }
-    h1, h2 {
-      color: #2c3e50;
+    header {
+      background: #1f2933;
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
     }
-    section {
-      margin-bottom: 30px;
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 25px;
     }
-    ul {
-      padding-left: 20px;
+    .section {
+      margin-bottom: 45px;
+    }
+    h2 {
+      border-bottom: 2px solid #007acc;
+      padding-bottom: 6px;
+    }
+    .project {
+      background: #fff;
+      padding: 18px;
+      margin-top: 20px;
+      border-left: 4px solid #007acc;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+    .skills span {
+      display: inline-block;
+      background: #e5e7eb;
+      padding: 6px 10px;
+      margin: 5px;
+      border-radius: 4px;
+      font-size: 14px;
     }
     a {
-      color: #0066cc;
+      color: #007acc;
       text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background: #1f2933;
+      color: #fff;
+      text-align: center;
+      padding: 18px;
+      font-size: 14px;
     }
   </style>
 </head>
 
 <body>
 
+<header>
   <h1>Ankita</h1>
-  <p><strong>Senior QA Engineer | Automation | Selenium | Java</strong></p>
+  <p>Senior QA Engineer | Manual & Automation Testing | CI/CD | UK</p>
+</header>
 
-  <section>
+<div class="container">
+
+  <section class="section">
     <h2>About Me</h2>
     <p>
-      QA Engineer with 8+ years of experience in manual and automation testing,
-      specialising in web and API testing for enterprise and fintech applications.
+      Senior QA Engineer with 8+ years of experience delivering high-quality web and API-based
+      applications across fintech and enterprise domains. Strong background in manual testing
+      with hands-on automation experience using Selenium, Playwright.
     </p>
-  </section>
-
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>Selenium WebDriver (Java)</li>
-      <li>TestNG / JUnit</li>
-      <li>API Testing (Postman, REST)</li>
-      <li>Jira, Agile / Scrum</li>
-      <li>CI/CD (basic exposure)</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Projects</h2>
-    <ul>
-      <li>
-        <strong>API Automation Framework using Robotframework and Python</strong> –
-        <a href="https://github.com/ankita-churi/api-automation-robotframework">
-          GitHub Link
-        </a>
-      </li>
-      <li>
-        <strong>API Test Automation Framework using Rest Assured</strong> –
-        <a href="https://github.com/ankita-churi/restassured-api-automation-sample">
-          GitHub Link
-        </a>
-      </li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Contact</h2>
     <p>
-      Email: ankita.churi@outlook.com <br>
-      LinkedIn: <a href="https://linkedin.com/in/ankita-churi">Profile</a>
+      Experienced in Agile environments, working closely with developers, product owners,
+      and business stakeholders to ensure reliable and scalable releases.
     </p>
   </section>
 
+  <section class="section">
+    <h2>Core QA Experience</h2>
+    <ul>
+      <li>Planned and executed end-to-end testing covering integration, regression, and exploratory scenarios across web and API layers</li>
+      <li>Designed and maintained clear, traceable test cases aligned with functional and business requirements</li>
+      <li>Validated RESTful APIs using Postman, covering positive, negative, and edge-case scenarios</li>
+      <li>Managed defects end-to-end in Jira with detailed reproduction steps, root-cause context, and impact assessment</li>
+      <li>Contributed to automated test coverage by developing and maintaining reliable, maintainable test suites within existing frameworks</li>
+      <li>Collaborated closely with cross-functional Agile teams to embed quality early and support sprint-based delivery</li>
+</ul>
+
+  </section>
+
+  <section class="section">
+    <h2>Selected Projects</h2>
+
+    <div class="project">
+    <h3>🔹 REST API Automation Framework (RestAssured)</h3>
+    <p>
+      Scalable API automation framework designed to validate RESTful services with a strong focus on reliability,
+      maintainability, and GitHub Actions–based CI/CD execution.
+    </p>
+    <ul>
+      <li>Modular framework structure with reusable components and utilities</li>
+      <li>Data-driven API test execution supporting multiple environments</li>
+      <li>Detailed execution reports with request/response visibility</li>
+      <li>Fully integrated with GitHub Actions for automated, repeatable CI/CD pipelines</li>
+    </ul>
+  </div>
+      <div class="project">
+    <h3>🔹 API Test Automation – Robot Framework</h3>
+    <p>
+      Keyword-driven API automation framework using Python and Robot Framework,
+      designed for readability, reusability, and scalable test coverage with CI/CD via GitHub Actions.
+    </p>
+    <ul>
+      <li>Custom keywords for REST API validation and request abstraction</li>
+      <li>Supports positive, negative, and edge-case API scenarios</li>
+      <li>Structured execution reports for test visibility and analysis</li>
+      <li>Automated CI/CD execution powered by GitHub Actions for fast feedback</li>
+    </ul>
+  </div>
+  </section>
+</div>
 </body>
 </html>
